@@ -1,0 +1,189 @@
+body{
+    background-color: #3D087B;
+}
+.clock{
+    position: relative;
+    left: 10%;
+    top: 30px;
+}
+.parent{
+    width: 430px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    left: 9%;
+    line-height: 76px;
+}
+.content{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.content img{
+    width: 27px;
+    line-height: 50px;
+}
+.dj{
+    position: relative;
+    left: 20px;
+    bottom: 8px;
+    color: #3D087B;
+}
+.wake-time{
+    position: relative;
+    left: 50px;
+    width: 190px;
+    color: #3D087B;
+    bottom: 6px;
+    border-radius: 4px;
+    height: 29px;
+   
+}
+hr{
+    right: 163px;
+    display: initial;
+    position: relative;
+    top: 16px;
+    
+}
+.line1{
+    right: 156px;
+    display: initial;
+    position: relative;
+    top: 16px; 
+}
+.lunch-time{
+    position: relative;
+    left: 64px;
+    width: 190px;
+    color: #3D087B;
+    bottom: 6px;
+    height: 29px;
+    
+    border-radius: 4px;
+}
+.nap-time{
+    position: relative;
+    left: 72px;
+    width: 190px;
+    color: #3D087B;
+    bottom: 6px;
+    height: 29px;
+    
+    border-radius: 4px;
+}
+.night-time{
+    position: relative;
+    left: 70px;
+    width: 190px;
+    color: #3D087B;
+    bottom: 6px;
+    height: 29px;
+    
+    border-radius: 4px;
+}
+.line2{
+    right: 152px;
+    display: initial;
+    position: relative;
+    top: 16px; 
+}
+.good{
+    position: relative;
+    background-color: #9140B5;
+    width: 405px;
+    height: 33px;
+    left: 131px;
+    top: 110px;
+    border-radius: 6px;
+    line-height: 0px;
+    color: white;
+    font-size: 14px;
+    padding: 14px;
+}
+.btn{
+    position: relative;
+    top: 130px;
+    left: 150px;
+}
+button{
+    width: 201px;
+    height: 41px;
+    position: relative;
+    right: 20px;
+    background: transparent linear-gradient(113deg, #6E54EC 20%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%)  ;
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+    opacity: 1px;
+}
+button:hover{
+    background: transparent linear-gradient(113deg, #F1A7C5 0%, #FC5EFF 40%, #CB52F8 81%, #6E54EC 100%) ;
+    opacity: 1px;
+}
+.watch{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    left: 39%;
+    bottom: 368px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: center;
+}
+.one{
+    position: relative;
+    left: 20px;
+    bottom: 1px;
+    margin: 6px;
+    color:#3D087B;
+    font-weight: bold;
+}
+.one img{
+    width: 65px;
+}
+.con-1{
+    position: absolute;
+    font: normal normal normal 21px/25px Barlow;
+    text-align: center;
+    top: 10px;
+    left: 1px;
+}
+.am{
+    top: 21px;
+    left: 15px;
+    color: white;
+}
+.dot{
+    position: absolute;
+    top: 20px;
+    left: 66px;
+    font-size: 30px;
+    color:#3D087B;
+}
+.grave{
+    width: 404px;
+    height: 81px;
+    background-color: white;
+    color: #6E54EC;
+    position: relative;
+    bottom: 328px;
+    left: 587px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mrng-image img{
+    position: relative;
+    left: 39%;
+    bottom: 308px;
+    height: 260px;
+}
