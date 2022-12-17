@@ -1,5 +1,7 @@
 body{
     background-color: #3D087B;
+    margin: 0;
+    padding: 0;
 }
 .clock{
     position: relative;
@@ -8,8 +10,9 @@ body{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .clock{
-        position:relative;
+        position: relative;
         left: 95px;
+        width: 0px  ;
     }
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
@@ -30,7 +33,7 @@ body{
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .parent{
         top: 551px;
-        left: -5px;
+        left: 2vw;
         width: 352px;
     }
 }
@@ -159,7 +162,7 @@ hr{
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .good{
         top: 574px;
-        left: -4px;
+        left: 2vw;
         width: 324px;
     }
     
@@ -173,6 +176,7 @@ hr{
     .btn{
         top: 590px;
         left: 100px;
+        width: 0px;
     }
     
 }
@@ -204,9 +208,9 @@ button:hover{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .setAlarm1{
-        top: 1074px;
-        left: 74px;
-        width: 218px;
+        top: 168%;
+        left: 17vw;
+        width: 225px;
         height: 97px;
     }
     
@@ -229,7 +233,7 @@ button:hover{
     .watch{
         width: 350px;
         top: -350px;
-        left: -2px;
+        left: 3vw;
     }
 }
 .one{
@@ -281,7 +285,7 @@ button:hover{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .grave{
-        left: -5px;
+        left: 2vw;
         width: 353px;
     }
 }
@@ -302,7 +306,7 @@ button:hover{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .mrng-image img{
-        left: -6px;
+        left: 2vw;
         width: 353px;
         bottom: 352px;
     }
