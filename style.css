@@ -98,10 +98,11 @@ hr{
     left: 131px;
     top: 110px;
     border-radius: 6px;
-    line-height: 0px;
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     padding: 14px;
+    line-height: 1px;
+    font-family: 'Fredoka One', cursive;
 }
 .btn{
     position: relative;
@@ -122,6 +123,17 @@ button{
 button:hover{
     background: transparent linear-gradient(113deg, #F1A7C5 0%, #FC5EFF 40%, #CB52F8 81%, #6E54EC 100%) ;
     opacity: 1px;
+}
+.setAlarm1{
+    position: absolute;
+    background-color: #9140b5;
+    left: 354px;
+    top: 572px;
+    width: 211px;
+    line-height: 3px;
+    border-radius: 10px;
+    padding: 5px;
+    opacity: 0.8;
 }
 .watch{
     width: 400px;
@@ -150,14 +162,14 @@ button:hover{
 }
 .con-1{
     position: absolute;
-    font: normal normal normal 21px/25px Barlow;
+    font: normal normal normal 27px/30px Barlow;
     text-align: center;
-    top: 10px;
-    left: 1px;
+    top: 8px;
+    left: -1px;
 }
 .am{
-    top: 21px;
-    left: 15px;
+    top: 22px;
+    left: 8px;
     color: white;
 }
 .dot{
@@ -167,23 +179,30 @@ button:hover{
     font-size: 30px;
     color:#3D087B;
 }
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 .grave{
-    width: 404px;
-    height: 81px;
+    width: 412px;
+    height: 101px;
     background-color: white;
-    color: #6E54EC;
     position: relative;
-    bottom: 328px;
-    left: 587px;
+    bottom: 362px;
+    left: 583px;
     border-radius: 10px;
-    text-align: center;
-    line-height: 70px;
-    font-size: 18px;
+    
+    
+}
+#mainmessage{
+    font-family: 'Fredoka One', cursive;
+    color: #8E53F0;
+    position: relative;
+    left: 14px;
+    bottom: -29px;
+    font-size: 20px;
     font-weight: bold;
 }
 .mrng-image img{
     position: relative;
     left: 39%;
-    bottom: 308px;
+    bottom: 342px;
     height: 260px;
 }
