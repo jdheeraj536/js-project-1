@@ -2,6 +2,7 @@ body{
     background-color: #3D087B;
     margin: 0;
     padding: 0;
+   
 }
 .clock{
     position: relative;
@@ -32,9 +33,9 @@ body{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .parent{
-        top: 551px;
-        left: 2vw;
-        width: 352px;
+        top: 550px;
+        left: 5px;
+        width: 350px;
     }
 }
 .content{
@@ -70,8 +71,8 @@ body{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .wake-time{
-        left: 35px;
-        width: 164px;   
+        left: 47px;
+        width: 140px;  
     }
     
 }
@@ -100,8 +101,8 @@ hr{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .lunch-time{
-        left: 52px;
-        width: 164px;   
+        left: 63px;
+        width: 141px; 
     }
     
 }
@@ -117,8 +118,8 @@ hr{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .nap-time{
-        left: 61px;
-        width: 164px;   
+        left: 69px;
+        width: 145px;  
     }
     
 }
@@ -134,8 +135,8 @@ hr{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .night-time{
-        left: 56px;
-        width: 164px;   
+        left: 65px;
+        width: 144px;  
     }
     
 }
@@ -162,8 +163,8 @@ hr{
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .good{
         top: 574px;
-        left: 2vw;
-        width: 324px;
+        left: 6px;
+        width: 321px;
     }
     
 }
@@ -208,9 +209,9 @@ button:hover{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .setAlarm1{
-        top: 168%;
-        left: 17vw;
-        width: 225px;
+        top: 1063px;
+        left: 61px;
+        width: 226px;
         height: 97px;
     }
     
@@ -233,7 +234,7 @@ button:hover{
     .watch{
         width: 350px;
         top: -350px;
-        left: 3vw;
+        left: 6px;
     }
 }
 .one{
@@ -285,8 +286,8 @@ button:hover{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .grave{
-        left: 2vw;
-        width: 353px;
+        left: 4px;
+        width: 352px;
     }
 }
 #mainmessage{
@@ -298,6 +299,11 @@ button:hover{
     font-size: 20px;
     font-weight: bold;
 }
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+    #mainmessage{
+        width: 340px;
+    }
+}
 .mrng-image img{
     position: relative;
     left: 39%;
@@ -306,8 +312,8 @@ button:hover{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .mrng-image img{
-        left: 2vw;
-        width: 353px;
+        left: 7px;
+        width: 347px;
         bottom: 352px;
     }
 }
