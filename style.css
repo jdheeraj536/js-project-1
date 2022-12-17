@@ -247,7 +247,7 @@ button:hover{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .one{
-       left: -5px;
+       left: 22px;
     }
 }
 .one img{
@@ -288,6 +288,11 @@ button:hover{
     .grave{
         left: 4px;
         width: 352px;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+    .time2{
+        display: none;
     }
 }
 #mainmessage{
