@@ -88,7 +88,7 @@ hr{
         background-color: black;
         position: absolute;
         rotate: 90deg;
-        right: 217px;
+        right: 235px;
         top: 58px;
         width: 31px;
     }
@@ -187,8 +187,8 @@ hr{
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .good{
         top: 535px;
-        left: 13px;
-        width: 302px;
+        left: 11px;
+        width: 335px;
     }
     
 }
