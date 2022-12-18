@@ -12,8 +12,8 @@ body{
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .clock{
         position: relative;
-        left: 95px;
-        width: 0px  ;
+        left: 78px;
+        width: 0px;
     }
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
@@ -33,9 +33,9 @@ body{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .parent{
-        top: 550px;
-        left: 5px;
-        width: 350px;
+        top: 505px;
+        left: 8px;
+        width: 310px;
     }
 }
 .content{
@@ -71,8 +71,8 @@ body{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .wake-time{
-        left: 47px;
-        width: 140px;  
+        left: 44px;
+        width: 104px;
     }
     
 }
@@ -101,8 +101,8 @@ hr{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .lunch-time{
-        left: 63px;
-        width: 141px; 
+        left: 60px;
+        width: 104px;
     }
     
 }
@@ -118,8 +118,8 @@ hr{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .nap-time{
-        left: 69px;
-        width: 145px;  
+        left: 70px;
+        width: 106px;
     }
     
 }
@@ -136,7 +136,7 @@ hr{
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .night-time{
         left: 65px;
-        width: 144px;  
+        width: 107px; 
     }
     
 }
@@ -147,24 +147,37 @@ hr{
     top: 16px; 
 }
 .good{
+    width: 433px;
+    background-color: #8E53F0;
     position: relative;
-    background-color: #9140B5;
-    width: 405px;
-    height: 33px;
-    left: 131px;
-    top: 110px;
-    border-radius: 6px;
+    top: 111px;
+    height: 66px;
+    left: 135px;
+    border-radius: 10px;
+}
+#message{
+    position: absolute;
+    font-size: 21px;
+    font-family: "Fredoka One";
     color: white;
-    font-size: 13px;
-    padding: 14px;
-    line-height: 1px;
-    font-family: 'Fredoka One', cursive;
+    left: 12px;
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .good{
-        top: 574px;
-        left: 6px;
-        width: 321px;
+        top: 535px;
+        left: 13px;
+        width: 302px;
+    }
+    
+}
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+    #message{
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-align: center;
+        top: 6px;
+
     }
     
 }
@@ -175,8 +188,8 @@ hr{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .btn{
-        top: 590px;
-        left: 100px;
+        top: 552px;
+        left: 85px;
         width: 0px;
     }
     
@@ -209,10 +222,11 @@ button:hover{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .setAlarm1{
-        top: 1063px;
+        top: 1043px;
         left: 61px;
-        width: 226px;
+        width: 200px;
         height: 97px;
+        padding: 10px;
     }
     
 }
@@ -232,9 +246,9 @@ button:hover{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .watch{
-        width: 350px;
-        top: -350px;
-        left: 6px;
+        width: 308px;
+        top: -351px;
+        left: 11px;
     }
 }
 .one{
@@ -247,7 +261,7 @@ button:hover{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .one{
-       left: 22px;
+       left: 1px;
     }
 }
 .one img{
@@ -274,20 +288,19 @@ button:hover{
 }
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 .grave{
-    width: 412px;
-    height: 101px;
+    width: 405px;
     background-color: white;
     position: relative;
-    bottom: 362px;
-    left: 583px;
+    bottom: 356px;
+    left: 592px;
+    height: 82px;
     border-radius: 10px;
-    
-    
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .grave{
-        left: 4px;
-        width: 352px;
+        left: 17px;
+        top: -335px;
+        width: 298px;
     }
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
@@ -296,17 +309,17 @@ button:hover{
     }
 }
 #mainmessage{
-    font-family: 'Fredoka One', cursive;
+    font-family: "Fredoka One";
+    position: absolute;
     color: #8E53F0;
-    position: relative;
-    left: 14px;
-    bottom: -29px;
-    font-size: 20px;
+    font-size: 21px;
+    left: 16px;
     font-weight: bold;
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     #mainmessage{
-        width: 340px;
+        text-align: center;
+        left: auto;
     }
 }
 .mrng-image img{
@@ -317,8 +330,10 @@ button:hover{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .mrng-image img{
-        left: 7px;
-        width: 347px;
-        bottom: 352px;
+        left: 10px;
+        width: 308px;
+        bottom: 320px;
+        border-radius: 21px;
+        height: 200px;
     }
 }

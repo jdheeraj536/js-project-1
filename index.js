@@ -12,20 +12,36 @@ if (hours >= 20 && mins >= 0 && secs >= 1) {
     document.getElementById("mainimg").src = "./night1.jpg";
     document.getElementById('mainmessage').innerHTML = "CLOSE YOUR EYES AND GO TO SLEEP"
     document.getElementById('message').innerHTML = "GOOD NIGHT!!"
+    // message.style.fontSize ="25px";
+    // message.style.marginTop ="15px";
+    // mainmessage.style.fontSize ="18px";
+    // mainmessage.style.top ="34px";
+   
 }
 else if (hours >= 16 && mins >= 0 && secs >= 1) {
     document.getElementById("mainimg").src = "./evng.png";
-    document.getElementById('message').innerHTML = "GOOD EVENING!!"
-    document.getElementById('mainmessage').innerHTML = "STOP YAMING, GET SOME TEA ITS JUST EVENING"
+    document.getElementById('message').innerHTML = "GOOD EVENING !!"
+    document.getElementById('mainmessage').innerHTML = "STOP YAMING, GET SOME TEA.. ITS JUST EVENING !"
+    // mainmessage.style.fontSize="25px";
+    // mainmessage.style.bottom="-22px";
+    // message.style.fontSize="25px";
+    // message.style.marginTop="15px";
+
 }
 else if (hours >= 12 && mins >= 0 && secs >= 1) {
     document.getElementById("mainimg").src = "./afternoon.png";
     document.getElementById('message').innerHTML = "GOOD AFTERNOON!! TAKE SOME SLEEP!!"
     document.getElementById('mainmessage').innerHTML = "LET'S HAVE SOME LUNCH !!"
+    // message.style.fontSize="20px";
+    // message.style.fontSize="20px";
+    // mainmessage.style.fontSize="25px";
+    // mainmessage.style.textAlign="center";
+    // mainmessage.style.left="6px";
 }
 else if (hours >= 10 && mins >= 0 && secs >= 1) {
     document.getElementById("mainimg").src = "./component.svg";
-    document.getElementById('mainmessage').innerHTML = "GRAB SOME HEALTHY BREAKFAST"
+    document.getElementById('mainmessage').innerHTML = "GRAB SOME HEALTHY BREAKFAST";
+    document.getElementById('message').innerHTML = "GOOD MORNING!! WAKE UP !!";
 }
 
 
