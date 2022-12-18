@@ -85,8 +85,12 @@ hr{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     hr{
-        left: -117px;
         background-color: black;
+        position: absolute;
+        rotate: 90deg;
+        right: 217px;
+        top: 58px;
+        width: 31px;
     }
 }
 .line1{
@@ -241,8 +245,8 @@ button:hover{
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .setAlarm1{
         top: 1043px;
-        left: 52px;
-        width: 217px;
+        left: 46px;
+        width: 235px;
         height: 97px;
     }
     
