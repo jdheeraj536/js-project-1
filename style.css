@@ -101,8 +101,12 @@ hr{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .line1{
-        left: -109px;
         background-color: black;
+        position: absolute;
+        rotate: 90deg;
+        right: 235px;
+        top: 135px;
+        width: 31px;
     }
 }
 .lunch-time{
@@ -164,13 +168,17 @@ hr{
 }
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     .line2{
-        left: -106px;
         background-color: black;
+        position: absolute;
+        rotate: 90deg;
+        right: 235px;
+        top: 210px;
+        width: 31px;
     }
 }
 .good{
     width: 433px;
-    background-color: #8E53F0;
+    background-color: #9140b5;
     position: relative;
     top: 111px;
     height: 66px;
@@ -340,7 +348,7 @@ button:hover{
 @media only screen and (min-width: 360px) and (max-width: 640px) {
     #mainmessage{
         text-align: center;
-        left: auto;
+        
     }
 }
 .mrng-image img{
